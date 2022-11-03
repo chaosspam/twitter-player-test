@@ -83,8 +83,8 @@
       canvas.className = "unity-mobile";
 
       if (/WebView|wv|iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        config.devicePixelRatio = 1;
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
+        //config.devicePixelRatio = 1;
+        unityShowBanner('WebGL builds might not be supported on mobile devices.');
       }
 
       loadingBar.style.display = "block";
